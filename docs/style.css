@@ -8,7 +8,7 @@
   
   .title {
     color: rgb(0, 0, 0);
-    font-size: 36px;
+    font-size: 18px;
   }
   
   button {
@@ -77,3 +77,18 @@
     color: white;
     transform: rotateY(180deg);
   }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.h1 {
+font-size: 20px;
+}
